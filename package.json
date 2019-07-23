@@ -1,0 +1,30 @@
+{
+  "name": "react-native-clean-number-input",
+  "version": "1.0.0",
+  "description": "A number input component for react native",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/WJimmyCook/react-native-clean-number-input.git"
+  },
+  "keywords": [
+    "react-native",
+    "clean",
+    "number",
+    "input",
+    "numeric",
+    "textinput"
+  ],
+  "author": "Jimmy Cook",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/WJimmyCook/react-native-clean-number-input/issues"
+  },
+  "homepage": "https://github.com/WJimmyCook/react-native-clean-number-input#readme",
+  "dependencies": {
+    "prop-types": "^15.7.2"
+  }
+}
