@@ -11,6 +11,13 @@ export default class NumberInput extends Component {
     };
   }
 
+  componentWillReceiveProps(nextProps){
+    this.setState({
+      textValue: String(nextProps.value),
+      numValue: nextProps.value,
+    })
+  }
+
   cleanNonNumericChars(text) {
     if (!text || typeof text !== 'string') {
       text = String(text);
